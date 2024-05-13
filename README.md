@@ -17,6 +17,16 @@ code/         # contains code and scripts
 stats/        # contains helper statistics
 ```
 
-## Installation
+## Dependencies
+
+
 
 ## Running
+
+Run the scripts in `./code/scripts` in the following order:
+
+```
+run_collect.sh --> run_collect_real.sh --> run_train.sh --> run_train_actor.sh --> run_collect_interact.sh --> run_test_interact.sh
+```
+
+You may need to modify few parameters to suit your settings. For example `--category`, `--data_dir` and `--out_dir`.
