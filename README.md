@@ -19,7 +19,7 @@ stats/        # contains helper statistics
 
 ## Dependencies
 
-
+Please follow the instructions in `./data/README.md`.
 
 ## Running
 
